@@ -5,7 +5,6 @@ m = 2
 count = 0
 
 for i in range(len(s)-m+1):
-    print((len(s)-m+1))
     seg_sum = sum(s[i:i+m])
     print(seg_sum)
     if seg_sum == d:
